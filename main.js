@@ -10,7 +10,7 @@ function add(){
         li.innerHTML = input.value;
         list.appendChild(li);
         let span = document.createElement("span");
-        span.innerHTML = "\u00d7";
+        span.innerHTML = "\&#x1F5D1";
         li.appendChild(span);
     }
     input.value='';
